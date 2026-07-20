@@ -9,10 +9,61 @@
 
 ---
 
-## 📋 Solved Problems Table
+## 🚀 About This Repository
+- 📂 Organized solutions to popular DSA problems  
+- 🧩 Covers arrays, strings, linked lists, trees, graphs, dynamic programming, and more  
+- 💡 Clean, maintainable code with comments for clarity  
+- 🎯 Goal: Strengthen problem-solving skills and prepare for technical interviews  
+
+---
+
+## 📑 Contents
+- Arrays & Strings  
+- Linked Lists  
+- Stacks & Queues  
+- Trees & Graphs  
+- Dynamic Programming  
+- Miscellaneous  
+
+---
+
+## 🔗 My LeetCode Profile
+👉 [LeetCode Profile - arpan0408](https://leetcode.com/arpan0408/)
+
+---
+
+## 📊 LeetCode Stats
+![LeetCode Stats](https://leetcard.jacoblin.cool/arpan0408?theme=dark&font=Source%20Sans%20Pro&ext=contest)
+
+---
+
+<!--## 📋 Solved Problems Table
 
 | # | Problem Name | Difficulty | Solution Link | Problem Link |
 |---|---------------|------------|---------------|--------------|
 
 
 ---
+-->
+
+## 🛠️ Tech Stack
+- Languages: Java, Python, C++  
+- Platform: LeetCode, GitHub  
+- Tools: VS Code, IntelliJ IDEA  
+
+---
+
+## 📈 Progress Tracking
+I regularly update this repo with new problems and solutions.  
+Follow along to see my journey of mastering DSA and improving coding interview readiness.
+
+---
+
+## 🤝 Contributing
+Suggestions and optimizations are welcome!  
+Feel free to open an issue or submit a pull request.
+
+---
+
+## 📜 License
+Licensed under the MIT License – free to use for learning and practice.
