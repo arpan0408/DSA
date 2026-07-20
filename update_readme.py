@@ -1,23 +1,88 @@
 import os
+import requests
 
-def generate_table():
-    table_header = "| # | Problem Name | Difficulty | Solution Link |\n|---|---------------|------------|---------------|\n"
-    rows = []
+ROOT_DIR = "./LeetCode"
+LEETCODE_API = "https://leetcode.com/graphql"
+
+def get_problem_difficulty(title_slug):
+    """
+    Fetch difficulty from LeetCode GraphQL API using problem slug.
+    Example slug: 'two-sum'
+    """
+    query = {
+        "query": """
+        query getQuestionDifficulty($titleSlug: String!) {
+          question(titleSlug: $titleSlug) {
+            difficulty
+          }
+        }
+        """,
+        "variables": {"titleSlug": title_slug}
+    }
+
+    try:
+        response = requests.post(LEETCODE_API, json=query)
+        data = response.json()
+        return data["data"]["question"]["difficulty"]
+    except Exception:
+        return "TBD"
+
+def filename_to_slug(filename):
+    """
+    Convert filename like 'TwoSum.java' → 'two-sum'
+    """
+    name = os.path.splitext(filename)[0]
+    slug = name.replace("_", "-").replace(" ", "-").lower()
+    return slug
+
+def generate_table(sort_by="difficulty"):
+    """
+    Generate markdown table of solved problems.
+    sort_by can be 'difficulty' or 'name'
+    """
+    problems = []
     count = 1
 
-    # Walk through repo and auto-detect solutions
-    for root, _, files in os.walk("./LeetCode"):
+    for root, _, files in os.walk(ROOT_DIR):
         for file in files:
-            if file.endswith(".java") or file.endswith(".py") or file.endswith(".cpp"):
-                problem_name = file.replace(".java", "").replace(".py", "").replace(".cpp", "")
-                difficulty = "TBD"  # You can enhance this by mapping filenames to difficulty
-                solution_link = f"[Solution]({os.path.join(root, file)})"
-                rows.append(f"| {count} | {problem_name} | {difficulty} | {solution_link} |")
+            if file.endswith((".java", ".py", ".cpp")):
+                problem_name = os.path.splitext(file)[0].replace("_", " ")
+                slug = filename_to_slug(file)
+                difficulty = get_problem_difficulty(slug)
+
+                solution_path = os.path.join(root, file).replace("\\", "/")
+                solution_link = f"[Solution]({solution_path})"
+                problem_link = f"[Problem](https://leetcode.com/problems/{slug}/)"
+
+                problems.append({
+                    "id": count,
+                    "name": problem_name,
+                    "difficulty": difficulty,
+                    "solution": solution_link,
+                    "problem": problem_link
+                })
                 count += 1
+
+    # Sorting logic
+    if sort_by == "name":
+        problems.sort(key=lambda x: x["name"].lower())
+    elif sort_by == "difficulty":
+        order = {"Easy": 1, "Medium": 2, "Hard": 3, "TBD": 4}
+        problems.sort(key=lambda x: order.get(x["difficulty"], 99))
+
+    # Build table
+    table_header = "| # | Problem Name | Difficulty | Solution Link | Problem Link |\n|---|---------------|------------|---------------|--------------|\n"
+    rows = [
+        f"| {i+1} | {p['name']} | {p['difficulty']} | {p['solution']} | {p['problem']} |"
+        for i, p in enumerate(problems)
+    ]
 
     return table_header + "\n".join(rows)
 
 def main():
+    # Change sort_by to "name" if you prefer alphabetical order
+    table_content = generate_table(sort_by="difficulty")
+
     readme_content = f"""# 📘 Data Structures & Algorithms (DSA)
 
 ![Repo Size](https://img.shields.io/github/repo-size/arpan0408/dsa?color=blue&label=Repo%20Size)
@@ -59,7 +124,7 @@ def main():
 
 ## 📋 Solved Problems Table
 
-{generate_table()}
+{table_content}
 
 ---
 
@@ -87,6 +152,8 @@ Licensed under the MIT License – free to use for learning and practice.
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
+
+    print("✅ README.md updated with solved problems table (sorted by difficulty)!")
 
 if __name__ == "__main__":
     main()
