@@ -122,11 +122,12 @@ def main():
 
 ---
 
-## 📋 Solved Problems Table
+<!--## 📋 Solved Problems Table
 
 {table_content}
 
 ---
+-->
 
 ## 🛠️ Tech Stack
 - Languages: Java, Python, C++  
