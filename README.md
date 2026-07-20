@@ -39,8 +39,8 @@
 
 ## 📋 Solved Problems Table
 
-| # | Problem Name | Difficulty | Solution Link |
-|---|---------------|------------|---------------|
+| # | Problem Name | Difficulty | Solution Link | Problem Link |
+|---|---------------|------------|---------------|--------------|
 
 
 ---
