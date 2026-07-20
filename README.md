@@ -37,13 +37,14 @@
 
 ---
 
-## 📋 Solved Problems Table
+<!--## 📋 Solved Problems Table
 
 | # | Problem Name | Difficulty | Solution Link | Problem Link |
 |---|---------------|------------|---------------|--------------|
 
 
 ---
+-->
 
 ## 🛠️ Tech Stack
 - Languages: Java, Python, C++  
