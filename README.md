@@ -67,3 +67,19 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/arpan0408/DSA/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/arpan0408/DSA/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/arpan0408/DSA/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+<!---LeetCode Topics End-->
