@@ -67,3 +67,19 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/arpan0408/DSA/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/arpan0408/DSA/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/arpan0408/DSA/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
+<!---LeetCode Topics End-->
