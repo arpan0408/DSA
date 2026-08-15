@@ -67,3 +67,15 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/arpan0408/DSA/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/arpan0408/DSA/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
+<!---LeetCode Topics End-->
