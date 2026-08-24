@@ -67,19 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0010-regular-expression-matching](https://github.com/arpan0408/DSA/tree/main/0010-regular-expression-matching/) | Hard |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0010-regular-expression-matching](https://github.com/arpan0408/DSA/tree/main/0010-regular-expression-matching/) | Hard |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0010-regular-expression-matching](https://github.com/arpan0408/DSA/tree/main/0010-regular-expression-matching/) | Hard |
-<!---LeetCode Topics End-->
