@@ -67,27 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/arpan0408/DSA/tree/main/0075-sort-colors/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/arpan0408/DSA/tree/main/0075-sort-colors/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/arpan0408/DSA/tree/main/0075-sort-colors/) | Medium |
-## Quicksort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/arpan0408/DSA/tree/main/0075-sort-colors/) | Medium |
-## Bubble Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/arpan0408/DSA/tree/main/0075-sort-colors/) | Medium |
-<!---LeetCode Topics End-->
