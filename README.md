@@ -67,11 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0038-count-and-say](https://github.com/arpan0408/DSA/tree/main/0038-count-and-say/) | Medium |
-<!---LeetCode Topics End-->
