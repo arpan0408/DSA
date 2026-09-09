@@ -67,3 +67,11 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3870-count-commas-in-range](https://github.com/arpan0408/DSA/tree/main/3870-count-commas-in-range/) | Easy |
+<!---LeetCode Topics End-->
