@@ -67,11 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3871-count-commas-in-range-ii](https://github.com/arpan0408/DSA/tree/main/3871-count-commas-in-range-ii/) | Medium |
-<!---LeetCode Topics End-->
