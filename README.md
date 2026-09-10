@@ -67,19 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/arpan0408/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/arpan0408/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/arpan0408/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
-<!---LeetCode Topics End-->
