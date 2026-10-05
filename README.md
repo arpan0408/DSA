@@ -67,19 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0856-score-of-parentheses](https://github.com/arpan0408/DSA/tree/main/0856-score-of-parentheses/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0856-score-of-parentheses](https://github.com/arpan0408/DSA/tree/main/0856-score-of-parentheses/) | Medium |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0856-score-of-parentheses](https://github.com/arpan0408/DSA/tree/main/0856-score-of-parentheses/) | Medium |
-<!---LeetCode Topics End-->
