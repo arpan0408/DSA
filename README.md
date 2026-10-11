@@ -67,3 +67,11 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0092-reverse-linked-list-ii](https://github.com/arpan0408/DSA/tree/main/0092-reverse-linked-list-ii/) | Medium |
+<!---LeetCode Topics End-->
