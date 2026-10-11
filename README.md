@@ -67,15 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2778-sum-of-squares-of-special-elements](https://github.com/arpan0408/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
-## Enumeration
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2778-sum-of-squares-of-special-elements](https://github.com/arpan0408/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
-<!---LeetCode Topics End-->
