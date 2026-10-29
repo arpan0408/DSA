@@ -67,3 +67,19 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0953-verifying-an-alien-dictionary](https://github.com/arpan0408/DSA/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0953-verifying-an-alien-dictionary](https://github.com/arpan0408/DSA/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0953-verifying-an-alien-dictionary](https://github.com/arpan0408/DSA/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
+<!---LeetCode Topics End-->
