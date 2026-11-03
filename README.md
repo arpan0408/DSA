@@ -67,15 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/arpan0408/DSA/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/arpan0408/DSA/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
-<!---LeetCode Topics End-->
