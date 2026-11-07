@@ -67,19 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arpan0408/DSA/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arpan0408/DSA/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/arpan0408/DSA/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
-<!---LeetCode Topics End-->
