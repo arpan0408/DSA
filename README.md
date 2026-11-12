@@ -67,11 +67,3 @@ Feel free to open an issue or submit a pull request.
 
 ## 📜 License
 Licensed under the MIT License – free to use for learning and practice.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/arpan0408/DSA/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
-<!---LeetCode Topics End-->
